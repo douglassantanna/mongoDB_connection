@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xSj8L3DmlnZdNF27V8mTlc84DJgvIlCL7kPtXuXdpRhBaktJC5whqERyte2zE+KdmWCMOdu2UQPxPKwPK05n/Q==",
+  "dgSpecHash": "I+giZngCYTNMBVoVxIm1L31iJCByyXnHX099g3lgP4XVvru4ML0RH0dDGQiCZ+7u5UOaDPCUjHnBxu401rxLtg==",
   "success": true,
-  "projectFilePath": "C:\\cloudData\\temp\\wcaApi\\wcaApi.csproj",
+  "projectFilePath": "C:\\cloudData\\temp\\wcaapi\\wcaApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DouglasCraici\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\DouglasCraici\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.5\\microsoft.aspnetcore.jsonpatch.5.0.5.nupkg.sha512",

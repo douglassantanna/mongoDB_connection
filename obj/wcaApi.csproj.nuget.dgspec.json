@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cloudData\\temp\\wcaApi\\wcaApi.csproj": {}
+    "C:\\cloudData\\temp\\wcaapi\\wcaApi.csproj": {}
   },
   "projects": {
-    "C:\\cloudData\\temp\\wcaApi\\wcaApi.csproj": {
+    "C:\\cloudData\\temp\\wcaapi\\wcaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cloudData\\temp\\wcaApi\\wcaApi.csproj",
+        "projectUniqueName": "C:\\cloudData\\temp\\wcaapi\\wcaApi.csproj",
         "projectName": "wcaApi",
-        "projectPath": "C:\\cloudData\\temp\\wcaApi\\wcaApi.csproj",
+        "projectPath": "C:\\cloudData\\temp\\wcaapi\\wcaApi.csproj",
         "packagesPath": "C:\\Users\\DouglasCraici\\.nuget\\packages\\",
-        "outputPath": "C:\\cloudData\\temp\\wcaApi\\obj\\",
+        "outputPath": "C:\\cloudData\\temp\\wcaapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DouglasCraici\\AppData\\Roaming\\NuGet\\NuGet.Config",
