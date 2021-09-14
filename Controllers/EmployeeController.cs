@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -26,8 +27,8 @@ namespace wcaApi.Controllers
             if(name is null)
                 return  _employees.Find<dynamic>(new BsonDocument()).Limit(10).ToList();
 
-            var filtrar = Builders<dynamic>.Filter.Eq("name", name);
-            return _employees.Find(filtrar).ToList();
+            var filtrar = Builders<dynamic>.Filter.Eq("name", new BsonRegularExpression($".*{name}*.", "i"));
+            return _employees.Find(filtrar).Limit(10).ToList();
         }
     }
 }

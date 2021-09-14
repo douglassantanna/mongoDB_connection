@@ -26,7 +26,9 @@ namespace wcaApi
                 var connString = c.GetRequiredService<IConfiguration>()["MongoDBConnString"];
                 return new MongoClient(connString);
             });
+
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "wcaApi", Version = "v1" });
@@ -42,6 +44,8 @@ namespace wcaApi
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "wcaApi v1"));
             }
+
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());          
 
             app.UseHttpsRedirection();
 
